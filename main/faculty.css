@@ -1,0 +1,132 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: #f1f1fa;
+}
+body
+{
+    overflow-x: hidden;
+}
+.hod1
+{
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.hod
+{
+    width: 420px;
+   height: 340px;
+   border: 2px solid black;
+   border-radius: 45px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   /* margin-top: 35px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   transition: all 0.3s ease;
+}
+.hod:hover
+{
+   transform: scale(1.03);
+}
+
+.hod img
+{
+    overflow: hidden;
+    outline: none;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+.content
+{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin: 50px auto;
+}
+/* .content:hover
+{
+    transform: scale(1.03);
+} */
+.coordinator
+{
+    width: 370px;
+    height: 280px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 35px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+.coordinator a
+{
+    color: black;
+}
+.coordinator:hover
+{
+  transform: scale(1.03);
+
+}
+.coordinator img
+{
+    border-radius: 100%;
+}
+.teachers
+{
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.teachers .p1
+{
+    font-size: 40px;
+    font-weight: 400;
+}
+.t11
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 85%;
+    margin: 15px auto;
+    flex-wrap: wrap;
+    gap: 28px;
+    text-align: center
+}
+.yy
+{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid gray;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
